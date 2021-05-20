@@ -1,4 +1,4 @@
-//Sistema operativo
-var os = require('os');
-var misCPUs = os.cpus();
-console.log(misCPUs);
+//Moment JS
+var moment = require('moment');
+var now=moment();
+console.log(`Hoy es ${now}`);
