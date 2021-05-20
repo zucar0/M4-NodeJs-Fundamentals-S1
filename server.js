@@ -1,4 +1,3 @@
-//Moment JS
-var moment = require('moment');
-var now=moment();
-console.log(`Hoy es ${now}`);
+//Modulos
+var operaciones = require('./operaciones');
+operaciones.sumar(2,6);
