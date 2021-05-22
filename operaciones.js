@@ -22,7 +22,15 @@ function dividir(num1,num2){
     console.log("Dividir")
     console.log(num1/num2)
 }
+
+function random(min, max, decimals){
+    let presition = Math.pow(10, decimals);
+    min = min * presition;
+    max = max * presition;
+    console.log((Math.random()*(max-min+1)+min)/presition);
+}
+
 module.exports = {
-    restar, multiplicar, dividir, sumar
+    restar, multiplicar, dividir, sumar, random
 }
 

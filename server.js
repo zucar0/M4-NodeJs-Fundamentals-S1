@@ -5,3 +5,4 @@ operaciones.sumar(2,6);
 operaciones.restar(2,6);
 operaciones.dividir(2,6);
 operaciones.multiplicar(2,6);
+operaciones.random(1,10,2);
